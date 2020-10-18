@@ -19,10 +19,16 @@ namespace PlantDiary.Pages
 
         public void OnGet()
         {
-            int yearStarted = 2006;
-            string title = "My Plant Diary, Established ";
+            string brandName = Request.Query["BrandName"];
+            if (brandName == null || brandName.Length == 0)
+            {
+                int yearStarted = 2006;
+                string title = "My Plant Diary, Established ";
+                // assigning a default value to Brand Name if not populated from GET params
+                brandName = title + yearStarted;
+            }
             // Pass the data to our UI Page.
-            ViewData["brand"] = title + yearStarted;
+            ViewData["brand"] = brandName;
         }
     }
 }
