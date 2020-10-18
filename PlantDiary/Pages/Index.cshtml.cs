@@ -19,7 +19,10 @@ namespace PlantDiary.Pages
 
         public void OnGet()
         {
-
+            int yearStarted = 2006;
+            string title = "My Plant Diary, Established ";
+            // Pass the data to our UI Page.
+            ViewData["brand"] = title + yearStarted;
         }
     }
 }
