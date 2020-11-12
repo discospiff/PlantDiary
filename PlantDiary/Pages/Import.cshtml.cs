@@ -44,6 +44,10 @@ namespace PlantDiary.Pages
 
             ValidateXML(file);
 
+            XmlNode northernSpecimen = doc.SelectSingleNode("/plant/specimens/specimen[latitude>0]/comments");
+            string comments = northernSpecimen.InnerText;
+            XmlNodeList oldChildren = doc.DocumentElement.ChildNodes;
+            XmlNodeList specimens = doc.SelectNodes("/plant/specimens/specimen");
         }
 
         private void ValidateXML(string file)
