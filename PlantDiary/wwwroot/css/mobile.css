@@ -23,7 +23,9 @@ body {
 	position:relative;
 	margin-top: 3em;
 }
-
 #printonly {
+	display:none;
+}
+.junk {
 	display:none;
 }
