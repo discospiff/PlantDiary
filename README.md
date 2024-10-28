@@ -16,7 +16,8 @@ Do you remember when you planted the apple tree?  Do you know when to water and 
 -	Be aware of upcoming events for a plant: when to water, when growing season ends, etc.  
 
 Use your web browser to create your own plant diary.  Create reminders based on what you did in previous years.   Receive alerts about upcoming events for your plant.  
-
+## Logo
+![The plant places log is green with a beige background and says PlantPlaces.com](https://github.com/discospiff/PlantPlaces23FS003/blob/master/PlantPlacesLogo.gif)
 ## Data Feeds
 [WeatherBit](https://api.weatherbit.io/v2.0/current?&city=Cincinnati&country=USA)
 
