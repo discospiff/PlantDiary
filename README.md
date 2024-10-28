@@ -31,7 +31,7 @@ Use your web browser to create your own plant diary.  Create reminders based on 
 
 #### Scenario
 
-As a user interested in plants, I want to be able to search plants based on any part of the name: genus, species, cultivar, or common name.  
+As a user interested in plants, I want to be able to search plants based on any part of the name: genus, species, cultivar, or common name so that I can find plants that match my interest.
 
 #### Dependencies
 
